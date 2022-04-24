@@ -1,15 +1,11 @@
-import 'package:coin/core/extension/context_extension.dart';
-import 'package:coin/core/init/notifier/state_provider.dart';
-import 'package:coin/main.dart';
-import 'package:coin/product/helper/kmb_helper.dart';
-import 'package:coin/view/home/model/coin_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:provider/provider.dart';
 
 import '../../../core/base/view/base_view.dart';
 import '../../../core/constants/image/image_constants.dart';
-import '../../../product/components/coin_list_tile.dart';
+import '../../../core/extension/context_extension.dart';
+import '../../../core/init/notifier/state_provider.dart';
 import '../../../product/components/tab_bar_element.dart';
 import '../../../product/components/table_header.dart';
 import '../view_model/home_view_model.dart';

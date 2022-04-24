@@ -1,4 +1,4 @@
-import 'package:coin/core/base/model/base_model.dart';
+import '../../../core/base/model/base_model.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'coin_model.g.dart';

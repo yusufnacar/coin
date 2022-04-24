@@ -1,4 +1,4 @@
-import 'package:coin/core/init/notifier/state_provider.dart';
+import 'state_provider.dart';
 import 'package:provider/provider.dart';
 import 'package:provider/single_child_widget.dart';
 

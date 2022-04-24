@@ -1,9 +1,6 @@
-import 'package:coin/core/constants/app/app_constant.dart';
-import 'package:dio/dio.dart';
 import 'package:flutter/services.dart';
 
-import 'core_dio.dart';
-import 'i_core_dio.dart';
+import '../../constants/app/app_constant.dart';
 
 abstract class INetworkManager {
   Future<String> loadJson();
@@ -16,7 +13,6 @@ class NetworkManager implements INetworkManager {
     return _instance;
   }
 
-  // ICoreDio? coreDio;
   String? path;
 
   NetworkManager._init();

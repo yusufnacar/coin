@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:coin/core/extension/context_extension.dart';
+import '../../core/extension/context_extension.dart';
 
 class CoinListTile extends StatelessWidget {
   final String? symbol;

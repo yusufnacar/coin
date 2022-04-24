@@ -1,10 +1,6 @@
 import 'dart:convert';
 
-import 'package:coin/view/home/model/list_coin.dart';
-import 'package:flutter/services.dart';
-
-import '../../../core/constants/enums/http_enum.dart';
-import '../../../core/init/network/i_core_dio.dart';
+import '../model/list_coin.dart';
 
 abstract class IHomeService {
   final String? loadString;
@@ -24,9 +20,5 @@ class HomeService extends IHomeService {
     final response = ListCoin.fromJson(data);
 
     return response;
-
-    try {} catch (e) {
-      print(e);
-    }
   }
 }

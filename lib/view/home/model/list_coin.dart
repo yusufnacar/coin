@@ -1,6 +1,7 @@
-import 'package:coin/core/base/model/base_model.dart';
-import 'package:coin/view/home/model/coin_model.dart';
 import 'package:json_annotation/json_annotation.dart';
+
+import '../../../core/base/model/base_model.dart';
+import 'coin_model.dart';
 
 part 'list_coin.g.dart';
 

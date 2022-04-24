@@ -314,5 +314,3 @@ abstract class _HomeViewModelBase with Store, BaseViewModel {
     });
   }
 }
-
-// enum SortTableByHeader { isAscending, isDescending, isDefault }
