@@ -49,8 +49,13 @@ class HomeView extends StatelessWidget {
               viewModel.searchController!.text = "";
             },
             tabs: [Tab(text: "All"), Tab(text: "Spot"), Tab(text: "Future")]),
-        title: Image.asset(
-          ImageConstants.splashImage,
+        title: Container(
+          alignment: Alignment.center,
+          width: context.width * 0.5,
+          height: context.height * 0.1,
+          child: Image.asset(
+            ImageConstants.splashImage,
+          ),
         ));
   }
 
